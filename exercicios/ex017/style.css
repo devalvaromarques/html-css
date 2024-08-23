@@ -36,6 +36,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     max-width: 500px;
+    padding-bottom: 50px;
     margin: auto;
 }
 
@@ -83,6 +84,21 @@ main img.pequena {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+div.videos {
+    background-color: var(--color1);
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+div.videos > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 main h1 {
