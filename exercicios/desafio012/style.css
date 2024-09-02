@@ -82,6 +82,7 @@ footer p {
     height: 30px;
     padding: 10px;
     font-family: var(--fonte1);
+    display: block;
 }
 
 footer a {
