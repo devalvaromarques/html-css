@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    height: 100vw;
+    width: 98vw;
+}
+
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-image: url(../imagens/frame-iphone.png);
+}
+
+section.fundo-celular {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aquamarine;
+    background-image: url(../imagens/tela-home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
