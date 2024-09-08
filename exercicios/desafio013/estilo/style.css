@@ -7,20 +7,20 @@
 
 html, body {
     height: 100vw;
-    width: 98vw;
+    width: 100vw;
+    overflow: hidden;
 }
 
 body {
     background-image: url(../imagens/fundo-madeira.jpg);
     background-position: center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section {
     position: relative;
-    width: 400px;
-    height: 600px;
-    background-image: url(../imagens/frame-iphone.png);
+    
 }
 
 section.fundo-celular {
@@ -28,10 +28,16 @@ section.fundo-celular {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: aquamarine;
-    background-image: url(../imagens/tela-home.jpg);
+    width: 400px;
+    height: 500px;
+    background-image: url(../imagens/frame-iphone.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
+section.botoes {
+    text-align: right;
+    display: block;
+    border-radius: 50%;
+}
