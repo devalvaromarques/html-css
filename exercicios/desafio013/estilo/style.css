@@ -12,32 +12,33 @@ html, body {
 }
 
 body {
-    background-image: url(../imagens/fundo-madeira.jpg);
-    background-position: center center;
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-section {
+main {
     position: relative;
+    height: 100vw;
     
 }
 
-section.fundo-celular {
+section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 500px;
+    width: 311px;
+    height: 627px;
     background-image: url(../imagens/frame-iphone.png);
-    background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    
 }
 
-section.botoes {
-    text-align: right;
-    display: block;
-    border-radius: 50%;
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
